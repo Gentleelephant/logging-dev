@@ -10,6 +10,8 @@ on:
       - 'go.mod'
       - 'go.sum'
       - 'main.go'
+      - 'Dockerfile'
+      - 'VERSION'
 
 env:
   REPO_EW: 'birdhk'
