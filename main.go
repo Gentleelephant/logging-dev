@@ -19,6 +19,7 @@ func main() {
 	r.Run(":9999")
 
 	ch := make(chan bool)
+
 	<-ch
 }
 
